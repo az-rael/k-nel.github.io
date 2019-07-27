@@ -13,10 +13,28 @@ body {
     
 }
 
+#nav {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#nav li {
+    display: inline;
+    padding: 0.2rem;
+
+}
+
+#nav img {
+    height: 35px;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 72px;
+    font-size: 5rem;
     text-align: center;
+    display: inline;
+    margin-left: 48%;
 }
 
 span:hover {
